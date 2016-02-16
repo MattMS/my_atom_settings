@@ -1,0 +1,33 @@
+# My keymap
+#
+# Atom keymaps work similarly to style sheets, using selectors to associate keystrokes with events in specific contexts.
+# Unlike style sheets however, each selector can only be declared once.
+#
+# Here's an example taken from Atom's built-in keymap:
+#
+# 'atom-text-editor':
+#   'enter': 'editor:newline'
+#
+# 'atom-workspace':
+#   'ctrl-shift-p': 'core:move-up'
+#   'ctrl-p': 'core:move-down'
+#
+# - https://atom.io/docs/latest/using-atom-basic-customization#customizing-key-bindings
+# - https://atom.io/docs/latest/behind-atom-keymaps-in-depth
+# - https://atom.io/docs/latest/using-atom-basic-customization#cson
+
+'atom-text-editor.vim-mode.normal-mode':
+	'enter': 'custom:vim-mode-newline'
+	# 'enter': 'editor:newline'
+	'shift-enter': 'custom:vim-mode-newline-above'
+
+	'space d': 'core:close'
+
+	# 'shift-k': 'custom:vim-mode-split'
+	'shift-k': 'editor:newline'
+
+'atom-text-editor.vim-mode.visual-mode':
+	'ctrl-c': 'core:copy'
+
+# ctrl-\: Toggle tree view.
+# alt-\: Toggle focus between tree view and editor.
