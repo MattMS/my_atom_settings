@@ -1,0 +1,20 @@
+"*":
+  core:
+    autoHideMenuBar: true
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    fontSize: 16
+    invisibles: {}
+    softTabs: false
+    softWrap: true
+    tabLength: 4
+    zoomFontWhenCtrlScrolling: false
+  "exception-reporting":
+    userId: "5516c064-1a60-ca2e-7b05-71c5e27ee570"
+  "one-dark-ui": {}
+  "one-light-ui": {}
+  welcome:
+    showOnStartup: false
