@@ -1,2 +1,3 @@
-# my_atom_settings
+# My atom settings
+
 My Atom editor settings.
