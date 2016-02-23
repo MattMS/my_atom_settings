@@ -23,11 +23,16 @@
 
 	'space d': 'core:close'
 
+	'space e': 'tree-view:toggle-focus'
+
 	# 'shift-k': 'custom:vim-mode-split'
 	'shift-k': 'editor:newline'
 
 'atom-text-editor.vim-mode.visual-mode':
 	'ctrl-c': 'core:copy'
+
+'.tree-view':
+	'space d': 'tree-view:toggle'
 
 # ctrl-\: Toggle tree view.
 # alt-\: Toggle focus between tree view and editor.
