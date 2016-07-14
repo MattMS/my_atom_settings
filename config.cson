@@ -8,6 +8,7 @@
   editor:
     fontSize: 16
     invisibles: {}
+    showLineNumbers: false
     softTabs: false
     softWrap: true
     tabLength: 4
