@@ -6,6 +6,7 @@
       "solarized-dark-syntax"
     ]
   editor:
+    fontFamily: "Ubuntu Mono"
     fontSize: 16
     invisibles: {}
     showLineNumbers: false
