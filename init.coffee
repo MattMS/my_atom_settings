@@ -10,7 +10,7 @@
 #     console.log "Saved! #{editor.getPath()}"
 
 
-c = (names)->
+dispatch_commands = (names)->
 	editor = atom.workspace.getActiveTextEditor()
 
 	view = atom.views.getView editor
@@ -20,7 +20,7 @@ c = (names)->
 
 
 atom.commands.add 'atom-text-editor', 'custom:vim-mode-newline', (event)->
-	c [
+	dispatch_commands [
 		'vim-mode:move-down'
 		'vim-mode:move-to-beginning-of-line'
 		# 'editor:move-to-start-of-line'
@@ -34,13 +34,13 @@ atom.commands.add 'atom-text-editor', 'custom:vim-mode-newline', (event)->
 
 
 atom.commands.add 'atom-text-editor', 'custom:vim-mode-newline-above', ->
-	c [
+	dispatch_commands [
 		'vim-mode:move-to-beginning-of-line'
 		'editor:newline'
 	]
 
 
 atom.commands.add 'atom-text-editor', 'custom:vim-mode-split', (event)->
-	c [
+	dispatch_commands [
 		'editor:newline'
 	]
