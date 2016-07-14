@@ -25,6 +25,9 @@
 
 	'space e': 'tree-view:toggle-focus'
 
+	'space n': 'pane:show-next-item'
+	'space p': 'pane:show-previous-item'
+
 	# 'shift-k': 'custom:vim-mode-split'
 	'shift-k': 'editor:newline'
 
