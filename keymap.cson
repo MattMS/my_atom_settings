@@ -28,6 +28,8 @@
 
 	'space e': 'tree-view:toggle-focus'
 
+	'space i': 'editor:toggle-line-numbers'
+
 	'space n': 'pane:show-next-item'
 	'space p': 'pane:show-previous-item'
 
