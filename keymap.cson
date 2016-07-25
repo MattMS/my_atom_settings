@@ -28,13 +28,22 @@
 
 	'space e': 'tree-view:toggle-focus'
 
+	'shift-space f': 'easy-motion-redux:letter'
+
 	'space i': 'editor:toggle-line-numbers'
 
 	'space n': 'pane:show-next-item'
 	'space p': 'pane:show-previous-item'
 
+	'shift-space w': 'easy-motion-redux:words'
+
 'atom-text-editor.vim-mode.visual-mode':
 	'ctrl-c': 'core:copy'
+	# 'ctrl-s': 'core:save'
+
+	'shift-space f': 'easy-motion-redux:letter-select'
+
+	'shift-space w': 'easy-motion-redux:words-select'
 
 '.tree-view':
 	'space d': 'tree-view:toggle'

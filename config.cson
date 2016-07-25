@@ -5,6 +5,7 @@
       "one-dark-ui"
       "solarized-dark-syntax"
     ]
+  "easy-motion-redux": {}
   editor:
     fontFamily: "Ubuntu Mono"
     fontSize: 16
