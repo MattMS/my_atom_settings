@@ -21,12 +21,18 @@
 	# 'enter': 'editor:newline'
 	'shift-enter': 'custom:vim-mode-newline-above'
 
+	# 'ctrl-B': 'fuzzy-finder:toggle-git-status-finder'
+
 	# 'shift-k': 'custom:vim-mode-split'
 	'shift-k': 'editor:newline'
+
+	# 'ctrl-p': 'fuzzy-finder:toggle-file-finder'
 
 	'space d': 'core:close'
 
 	'space e': 'tree-view:toggle-focus'
+
+	'space f': 'fuzzy-finder:toggle-buffer-finder'
 
 	'shift-space f': 'easy-motion-redux:letter'
 
