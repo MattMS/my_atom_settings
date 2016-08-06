@@ -22,6 +22,7 @@
 'atom-text-editor.vim-mode.normal-mode':
 	'enter': 'custom:vim-mode-newline'
 	# 'enter': 'editor:newline'
+
 	'shift-enter': 'custom:vim-mode-newline-above'
 
 	# 'ctrl-B': 'fuzzy-finder:toggle-git-status-finder'
@@ -44,6 +45,7 @@
 	'space m': 'markdown-preview:toggle'
 
 	'space n': 'pane:show-next-item'
+
 	'space p': 'pane:show-previous-item'
 
 	'shift-space w': 'easy-motion-redux:words'
