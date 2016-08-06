@@ -11,11 +11,17 @@
 
 
 dispatch_commands = (names)->
-	editor = atom.workspace.getActiveTextEditor()
+	# https://atom.io/docs/api/v1.8.0/AtomEnvironment#instance-workspace
+	# https://atom.io/docs/api/v1.8.0/Workspace#instance-getActiveTextEditor
+	return unless editor = atom.workspace.getActiveTextEditor()
 
+	# https://atom.io/docs/api/v1.8.0/AtomEnvironment#instance-views
+	# https://atom.io/docs/api/v1.8.0/ViewRegistry#instance-getView
 	view = atom.views.getView editor
 
 	for name in names
+		# https://atom.io/docs/api/v1.8.0/AtomEnvironment#instance-commands
+		# https://atom.io/docs/api/v1.8.0/CommandRegistry#instance-dispatch
 		atom.commands.dispatch view, name
 
 
