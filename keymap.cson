@@ -38,6 +38,8 @@
 
 	'space i': 'editor:toggle-line-numbers'
 
+	'space m': 'markdown-preview:toggle'
+
 	'space n': 'pane:show-next-item'
 	'space p': 'pane:show-previous-item'
 
