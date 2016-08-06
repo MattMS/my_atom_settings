@@ -1,6 +1,10 @@
 "*":
   core:
     autoHideMenuBar: true
+    excludeVcsIgnoredPaths: true
+    packagesWithKeymapsDisabled: [
+      "emmet"
+    ]
     themes: [
       "one-dark-ui"
       "solarized-dark-syntax"
