@@ -59,6 +59,8 @@
 	'shift-space w': 'easy-motion-redux:words-select'
 
 '.tree-view':
+	'shift-e': 'tree-view:show-in-file-manager'
+
 	'space d': 'tree-view:toggle'
 
 # ctrl-\: Toggle tree view.
