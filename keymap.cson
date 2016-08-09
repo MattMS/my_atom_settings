@@ -38,8 +38,6 @@
 
 	'space f': 'fuzzy-finder:toggle-buffer-finder'
 
-	'shift-space f': 'easy-motion-redux:letter'
-
 	'space i': 'editor:toggle-line-numbers'
 
 	'space m': 'markdown-preview:toggle'
@@ -47,8 +45,6 @@
 	'space n': 'pane:show-next-item'
 
 	'space p': 'pane:show-previous-item'
-
-	'shift-space w': 'easy-motion-redux:words'
 
 	'space w c': 'pane:close'
 
@@ -63,6 +59,10 @@
 	'space w s': 'pane:split-down-and-copy-active-item'
 
 	'space w v': 'pane:split-right-and-copy-active-item'
+
+	'shift-space f': 'easy-motion-redux:letter'
+
+	'shift-space w': 'easy-motion-redux:words'
 
 'atom-text-editor.vim-mode.visual-mode':
 	'ctrl-c': 'core:copy'
