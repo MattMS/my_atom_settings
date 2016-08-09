@@ -50,6 +50,20 @@
 
 	'shift-space w': 'easy-motion-redux:words'
 
+	'space w c': 'pane:close'
+
+	'space w h': 'window:focus-pane-on-left'
+
+	'space w j': 'window:focus-pane-below'
+
+	'space w k': 'window:focus-pane-above'
+
+	'space w l': 'window:focus-pane-on-right'
+
+	'space w s': 'pane:split-down-and-copy-active-item'
+
+	'space w v': 'pane:split-right-and-copy-active-item'
+
 'atom-text-editor.vim-mode.visual-mode':
 	'ctrl-c': 'core:copy'
 	# 'ctrl-s': 'core:save'
