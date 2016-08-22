@@ -32,6 +32,8 @@
 
 	# 'ctrl-p': 'fuzzy-finder:toggle-file-finder'
 
+	'ctrl-q': 'application:quit'
+
 	'space d': 'core:close'
 
 	'space e': 'tree-view:toggle-focus'
