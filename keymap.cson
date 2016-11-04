@@ -19,10 +19,12 @@
 'atom-text-editor':
 	'ctrl-q': 'window:close'
 
-'atom-text-editor.vim-mode.insert-mode':
+# 'atom-text-editor.vim-mode.insert-mode':
+'atom-text-editor.vim-mode-plus.insert-mode':
 	'ctrl-e': 'emmet:expand-abbreviation'
 
-'atom-text-editor.vim-mode.normal-mode':
+# 'atom-text-editor.vim-mode.normal-mode':
+'atom-text-editor.vim-mode-plus.normal-mode':
 	'enter': 'custom:vim-mode-newline'
 	# 'enter': 'editor:newline'
 
