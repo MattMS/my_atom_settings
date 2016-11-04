@@ -27,11 +27,11 @@ dispatch_commands = (names)->
 
 atom.commands.add 'atom-text-editor', 'custom:vim-mode-newline', (event)->
 	dispatch_commands [
-		'vim-mode:move-down'
-		'vim-mode:move-to-beginning-of-line'
+		'vim-mode-plus:move-down'
+		'vim-mode-plus:move-to-beginning-of-line'
 		# 'editor:move-to-start-of-line'
 		'editor:newline'
-		'vim-mode:move-up'
+		'vim-mode-plus:move-up'
 	]
 
 	# editor = atom.workspace.getActiveTextEditor()
@@ -41,7 +41,7 @@ atom.commands.add 'atom-text-editor', 'custom:vim-mode-newline', (event)->
 
 atom.commands.add 'atom-text-editor', 'custom:vim-mode-newline-above', ->
 	dispatch_commands [
-		'vim-mode:move-to-beginning-of-line'
+		'vim-mode-plus:move-to-beginning-of-line'
 		'editor:newline'
 	]
 
