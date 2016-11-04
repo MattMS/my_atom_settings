@@ -6,6 +6,7 @@
     packagesWithKeymapsDisabled: [
       "emmet"
     ]
+    telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
       "solarized-dark-syntax"
