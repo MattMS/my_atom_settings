@@ -39,6 +39,7 @@
     flashScreenOnSearchHasNoMatch: false
     ignoreCaseForSearchCurrentWord: true
     incrementalSearch: true
+    useClipboardAsDefaultRegister: true
     useSmartcaseForSearch: true
   welcome:
     showOnStartup: false
