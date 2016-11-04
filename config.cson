@@ -23,6 +23,8 @@
     userId: "5516c064-1a60-ca2e-7b05-71c5e27ee570"
   "one-dark-ui": {}
   "one-light-ui": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
 ".python.source":
