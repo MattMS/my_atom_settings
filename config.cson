@@ -9,6 +9,7 @@
       "one-dark-ui"
       "solarized-dark-syntax"
     ]
+    warnOnLargeFileLimit: 4
   "easy-motion-redux": {}
   editor:
     fontFamily: "Ubuntu Mono"
