@@ -2,6 +2,10 @@
   core:
     audioBeep: false
     autoHideMenuBar: true
+    disabledPackages: [
+      "vim-surround"
+      "vim-mode"
+    ]
     excludeVcsIgnoredPaths: true
     packagesWithKeymapsDisabled: [
       "emmet"
