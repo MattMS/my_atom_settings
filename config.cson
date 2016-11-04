@@ -25,6 +25,14 @@
   "one-light-ui": {}
   "tree-view":
     hideVcsIgnoredFiles: true
+  "vim-mode-plus":
+    flashOnOperate: false
+    flashOnSearch: false
+    flashOnUndoRedo: false
+    flashScreenOnSearchHasNoMatch: false
+    ignoreCaseForSearchCurrentWord: true
+    incrementalSearch: true
+    useSmartcaseForSearch: true
   welcome:
     showOnStartup: false
 ".python.source":
