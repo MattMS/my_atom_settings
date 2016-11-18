@@ -90,5 +90,7 @@
 
 	'space d': 'tree-view:toggle'
 
+	'space n': 'tree-view:toggle-focus'
+
 # ctrl-\: Toggle tree view.
 # alt-\: Toggle focus between tree view and editor.
