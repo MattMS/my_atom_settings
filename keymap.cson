@@ -80,6 +80,14 @@
 '.tree-view':
 	'shift-e': 'tree-view:show-in-file-manager'
 
+	'g g': 'core:move-to-top'
+
+	'shift-g': 'core:move-to-bottom'
+
+	'shift-h': 'core:move-to-top'
+
+	'shift-l': 'core:move-to-bottom'
+
 	'space d': 'tree-view:toggle'
 
 # ctrl-\: Toggle tree view.
