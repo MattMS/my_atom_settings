@@ -30,6 +30,10 @@
 
 	'shift-enter': 'custom:vim-mode-newline-above'
 
+	'c s': 'vim-mode-plus:change-surround'
+
+	'd s': 'vim-mode-plus:delete-surround'
+
 	# 'ctrl-B': 'fuzzy-finder:toggle-git-status-finder'
 
 	# 'shift-k': 'custom:vim-mode-split'
