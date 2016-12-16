@@ -69,7 +69,8 @@
 
 	'shift-space w': 'easy-motion-redux:words'
 
-'atom-text-editor.vim-mode.visual-mode':
+# 'atom-text-editor.vim-mode.visual-mode':
+'atom-text-editor.vim-mode-plus.visual-mode':
 	'ctrl-c': 'core:copy'
 	# 'ctrl-s': 'core:save'
 
