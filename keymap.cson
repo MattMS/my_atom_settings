@@ -30,6 +30,10 @@
 
 	'shift-enter': 'custom:vim-mode-newline-above'
 
+	'ctrl-a': 'vim-mode-plus:move-to-first-character-of-line'
+
+	'ctrl-e': 'vim-mode-plus:move-to-last-character-of-line'
+
 	'c s': 'vim-mode-plus:change-surround'
 
 	'd s': 'vim-mode-plus:delete-surround'
