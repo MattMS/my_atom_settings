@@ -5,4 +5,5 @@ blob-store
 compile-cache
 dev
 packages
+split-diff
 storage
