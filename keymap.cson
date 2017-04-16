@@ -22,6 +22,9 @@
 # 'atom-text-editor.autocomplete-active':
 # 	'ctrl-c': 'autocomplete-plus:cancel'
 
+'atom-text-editor.vim-mode-plus':
+	'space /': 'vim-mode-plus:reset-normal-mode'
+
 # 'atom-text-editor.vim-mode.insert-mode':
 'atom-text-editor.vim-mode-plus.insert-mode':
 	'ctrl-e': 'emmet:expand-abbreviation'
