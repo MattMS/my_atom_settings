@@ -33,7 +33,12 @@
 
 	'shift-enter': 'custom:vim-mode-newline-above'
 
-	'ctrl-a': 'vim-mode-plus:move-to-first-character-of-line'
+	# 'ctrl-tab': 'pane:show-next-item'
+
+	# 'ctrl-shift-tab': 'pane:show-previous-item'
+
+	# NOTE: This interferes with increase number keymap.
+	# 'ctrl-a': 'vim-mode-plus:move-to-first-character-of-line'
 
 	'ctrl-e': 'vim-mode-plus:move-to-last-character-of-line'
 
